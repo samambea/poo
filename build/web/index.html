@@ -1,0 +1,43 @@
+<!-- INDEX.HTML -->
+
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Livraria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Administração</h1>
+        <div>
+            <form action="C" method="GET">
+                <label>ID:</label>
+                <input type="text" name="txtBookId" placeholder="Digite ID"><BR>
+                <label>Autor(es):</label>
+                <input type="text" name="txtauthors" placeholder="Digite o(s) autor(es)"><BR>
+                <label>Nome do Livro:</label>
+                <input type="text" name="txtbookName" placeholder="Digite o nome do livro"><BR>
+                <label>Gênero:</label>
+                <input type="text" name="txtgenre" placeholder="Digite o gênero"><BR>
+                <label>Editora:</label>
+                <input type="text" name="txtpublisher" placeholder="Digite a editora"><BR>
+                <label>Ano de Publicação:</label>
+                <input type="text" name="txtyearPublished" placeholder="Digite o ano de Publicação"><BR>
+                <label>Edição:</label>
+                <input type="text" name="txtedition" placeholder="Digite a edição"><BR>
+                <label>Quantidade em Estoque:</label>
+                <input type="text" name="txtqtdInStock" placeholder="Digite a quantidade em estoque"><BR>
+                <label>Avaliação:</label>
+                <input type="text" name="txtrating" placeholder="Digite a nota de avaliação"><BR>
+                <label>Preço:</label>
+                <input type="text" name="txtprice" placeholder="Digite o preço"><BR>
+                
+                <button type="submit" name="btnop" value="CADASTRAR">CADASTRAR</button>
+                <button type="submit" name="btnop" value="EDITAR">EDITAR</button>
+                <button type="submit" name="btnop" value="DELETAR">DELETAR</button> 
+                <button type="submit" name="btnop" value="CONSULTARBYID">Pesquisar por ID</button>
+                <button type="submit" name="btnop" value="CONSULTARTODOS">Ver Estoque</button>
+            </form>
+        </div>
+    </body>
+</html>
